@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.luckycourier37.common": "https://github.com/LuckyCourier37/Common.git",
+    "com.luckycourier37.wallmodule": "https://github.com/LuckyCourier37/WallModule.git",
     "com.unity.collab-proxy": "2.6.0",
     "com.unity.feature.2d": "2.0.0",
     "com.unity.ide.rider": "3.0.27",
@@ -40,5 +42,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "OpenUPM",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.needle"
+      ]
+    }
+  ]
 }
